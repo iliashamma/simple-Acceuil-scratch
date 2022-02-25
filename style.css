@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Acceuil */
+.diaporama{
+    position:relative;
+    height:80vh;
+    width:100%;
+    background-image: url(./images/principale1.jpg);
+    background-size: cover;
+}
+.fleche{
+    position:absolute;
+    width:5%;
+    height:10%;
+    opacity:0.4;
+    top:50%;
+    cursor: pointer;
+    
+}
+.fleche:hover{
+    opacity: 1;
+}
+.right{
+   left:90%;
+   transform: rotate(180deg);
+}
+.left{
+   right:90%;
+   
+}
+
+/* ticket Acceuil */
+.ticket{
+    padding:20px 20px 0 20px;
+    font-size: 15px;
+    background-color: red;
+    color:white;
+    position:absolute;
+    text-align: center;
+    top:70%;
+    left:30px;
+}
+h2{
+    margin:15px 60px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.ticket img{
+    color: #000;
+    width: 25px;
+    margin: 0 10px;
+    
+}
+.ticket h4{
+    margin-bottom: 15%;
+}
+
+/* Navbar */
+
+.navbar{
+    color:white;
+    background-color: rgb(63, 62, 62);
+    margin-bottom:10px;
+   
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+     display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    display: flex;
+}
+ li{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    font-weight:bold;
+    width:10%
+    
+}
+ li a{
+    text-decoration: none;
+    color:white;
+}
+li:hover{
+    
+    background-color: red;
+}
+.paragraph{
+    margin:30px 50px 0 50px;
+    line-height: 30px;
+}
+.button{
+    cursor: pointer;
+    padding-right: 60px;
+    width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    color:white;
+    background-color: red;
+    font-weight:bold;
+}
+/*les paragraphs*/
+#contenu{
+    margin:15vh;
+}
+#contenu h2{
+    text-align:center;
+}
+#contenu p{
+    text-align: center;
+}
+
+.cadre{
+    position: relative;
+}
+.cadre:hover .decouvrir{
+    visibility: visible;
+    opacity: 1;
+}
+.lescatas{
+    display: flex;
+    flex-wrap: wrap;
+    margin:30px 100px 30px 100px;
+    justify-content: space-between;
+}
+.cata{
+    width: 300px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.decouvrir{
+    visibility: hidden;
+    font-weight: bold;
+    padding:10px;
+    background-color: red;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    
+}
+
+.cata:hover{
+    opacity: 0.3;
+}
+
+.cata1{
+    background-image: url('./images/CATA1.jpg');
+}
+.cata2{
+    background-image: url('./images/CATA2.jpg');
+}
+.cata3{
+    background-image: url('./images/CATA3.jpg');
+}
+/* abonnement */
+.abonnement{
+   
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    line-height: 90px;
+    width:700px;
+    border-bottom: red solid 3px;
+    margin-bottom: 15vh;
+    
+    
+   
+}
+.button2{
+    
+    cursor: pointer;
+    /* margin-top: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%); */
+    border-radius: 30px;
+    border:rgb(238, 68, 38) solid 2px;
+    padding: 10px 30px;
+    font-size: 14px;
+    background-color: white;
+    
+}
+/*footer*/
+
+footer{
+    padding-top: 40px;
+    padding-bottom: 90px;
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    line-height: 50px;
+    
+    
+    
+}
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+footer img{
+    
+    width: 60px;
+    height: 60px;
+}
